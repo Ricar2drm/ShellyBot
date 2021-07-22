@@ -325,7 +325,7 @@ async function starts() {
 					insta: 'Desactivado.\n\n*Olvídate de esto*\n\n-ShellyBot',
 					musica: 'Desactivado.\n\n*Olvídate de esto*\n\n-ShellyBot',
 					musica2: 'Desactivado.\n\n*Olvídate de esto*\n\n-ShellyBot',
-					daftarB: `「NO ESTAS REGISTRADO」\n\nPA NO APARECES EN MI BASE DE DATOS \n\nPara poder usarme escribe el siguente comando\n\nComando: ${prefix}daftar Nombre\nEjemplo: ${prefix}daftar Ricar2drm`,
+					daftarB: `「NO ESTAS REGISTRADO\n\nPA NO APARECES EN MI BASE DE DATOS\n\nPara poder usarme escribe el siguente comando\n\nComando: ${prefix}daftar Nombre\nEjemplo: ${prefix}daftar Ricar2drm`,
 				}
 			}
     			const apakah = ['Si','No']
