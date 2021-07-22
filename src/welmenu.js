@@ -13,7 +13,7 @@ const welmenu = (prefix, pushname) => {
 _Para activar este comando el bot necesita tener admin_
 
 -ShellyBot
-
+`
 }
 
 exports.welmenu = welmenu
