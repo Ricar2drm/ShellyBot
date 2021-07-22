@@ -1,5 +1,5 @@
 const otak = (prefix, pushname) => {
-    return `*Palabras especificas para que el bot interactue con ustedes mis queridos otakus*
+    return `*Palabras especificas para que el bot interactue con los otakus gordos olor a obo*
 
 
 quien es tu sempai botsito
@@ -9,9 +9,9 @@ onichan
 la toca 7w7
 
 
-_Ojito escribe tal como esta_
+_Escribe exactamente como está_
 
-ву ѕнαη∂υу`
+-ShellyBot
 
 }
 
