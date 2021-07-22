@@ -768,7 +768,7 @@ break
 					}, 2000)
                      setTimeout( () => {
 					client.updatePresence(from, Presence.composing) 
-					client.sendMessage(from, Hasta la próxima.', text) // ur cods
+					client.sendMessage(from, 'Hasta la próxima', text) // ur cods
 					}, 0)
                      break
        /*case 'ownergrup':
