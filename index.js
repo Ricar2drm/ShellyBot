@@ -257,11 +257,11 @@ async function starts() {
 			console.log(anu)
 			if (anu.action == 'add') {
 				num = anu.participants[0]
-				teks = ` @${num.split('@')[0]}bienvenido a *${mdata.subject}* sigue las reglas, o si no, tendremos un problema
+				teks = ` @${num.split('@')[0]}bienvenido a *${mdata.subject}* sigue las reglas, o si no, tendremos un problema`
                           client.sendMessage(mdata.id, teks, MessageType.text, { contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
 				num = anu.participants[0]
-				teks = hasta la próxima @${num.split('@')[0]} por favor no vuelvas.
+				teks = `hasta la próxima @${num.split('@')[0]} por favor no vuelvas`
 				client.sendMessage(mdata.id, teks, MessageType.text, {contextInfo: {"mentionedJid": [num]}})
 			}
 		} catch (e) {
@@ -299,7 +299,7 @@ async function starts() {
 			const isCmd = body.startsWith(prefix)
 
 			mess = {
-				wait: 'Espéra mientras hago el sticker. \n\n❗No spammees.❗\n\n-ShellyBot,
+				wait: 'Espéra mientras hago el sticker\n\n❗No spammees❗\n\nShellyBot',
 				success: '✔️ Listo ✔️',
                                 levelon: '❬ ✅ ❭ *Level activado*',
 				leveloff: ' ❬ ✅ ❭  *Level desactivado*',
@@ -315,18 +315,18 @@ async function starts() {
 					ownerB: '[❗] Este comando solo lo usa ShellyBot',
 					admin: '[❗] Este comando solo puede ser utilizado por administradores del grupo',
 					Badmin: '[❗] Este comando solo se puede usar cuando el bot se convierte en administrador',
-                                        pegatina: 'Estoy haciendo el sticker...\n\n*Recuerda los stickersgif son de 6 segundos❗*\n\n-ShellyBot,
-					attp: 'Estoy haciendo el sticker...\n\n*Esto puede tardar unos minutos*\n\n-ShellyBot',
-					imgs: 'Recibido.\n\n*Convirtiendo tu Sticker a Imagen 🔄*\n\n-ShellyBot',
-					mpcancion: 'Desactivado.\n\n*Olvídate de esto*\n\n-ShellyBot',
-					mpa: 'Desactivado.\n\n*Olvídate de esto*\n\n-ShellyBot',
-                                        xn: 'Desactivado.\n\n*Olvídate de esto*\n\n-ShellyBot',
-					mpv: 'Desactivado.\n\n*Olvídate de esto*\n\n-ShellyBot',
-					insta: 'Desactivado.\n\n*Olvídate de esto*\n\n-ShellyBot',
-					musica: 'Desactivado.\n\n*Olvídate de esto*\n\n-ShellyBot',
-					musica2: 'Desactivado.\n\n*Olvídate de esto*\n\n-ShellyBot',
-					daftarB: `「NO ESTAS REGISTRADO\n\nPA NO APARECES EN MI BASE DE DATOS\n\nPara poder usarme escribe el siguente comando\n\nComando: ${prefix}daftar Nombre\nEjemplo: ${prefix}daftar Ricar2drm`,
-				}
+                                        pegatina: 'Estoy haciendo el sticker\n\n*Recuerda los stickersgif son de 6 segundos❗*\n\nShellyBot',
+					attp: 'Estoy haciendo el sticker\n\n*Esto puede tardar unos minutos*\n\nShellyBot',
+					imgs: 'Recibido\n\n*Convirtiendo tu Sticker a Imagen 🔄*\n\nShellyBot',
+					mpcancion: 'Desactivado\n\n*Olvídate de esto*\n\nShellyBot',
+					mpa: 'Desactivado\n\n*Olvídate de esto*\n\nShellyBot',
+                                        xn: 'Desactivado\n\n*Olvídate de esto*\n\nShellyBot',
+					mpv: 'Desactivado\n\n*Olvídate de esto*\n\nShellyBot',
+					insta: 'Desactivado\n\n*Olvídate de esto*\n\nShellyBot',
+					musica: 'Desactivado\n\n*Olvídate de esto*\n\nShellyBot',
+					musica2: 'Desactivado\n\n*Olvídate de esto*\n\nShellyBot',
+					daftarB: `「NO ESTAS REGISTRADO」\n\nPA NO APARECES EN MI BASE DE DATOS\n\nPara poder usarme escribe el siguente comando\n\nComando: ${prefix}daftar Nombre\nEjemplo: ${prefix}daftar Ricar2drm`,
+			          }
 			}
     			const apakah = ['Si','No']
                         const kapankah = ['Otro día','Otra semana','Otro mes','Otro año']
@@ -538,7 +538,7 @@ async function starts() {
 					}
 					break
 
-/******JUEGOS LA PUTA MADRE NO TE OLVIDES******/
+/******JUEGOS SHANDUY LA PUTA MADRE NO TE OLVIDES******/
 					
 case 'gay':
 if (!isUser) return reply(mess.only.daftarB)
@@ -582,7 +582,7 @@ break
 				
 	
 				  
-       				case 'wa.me':
+       				 case 'wa.me':
 				  case 'wame':
   client.updatePresence(from, Presence.composing) 
       options = {
