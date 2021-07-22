@@ -1,13 +1,13 @@
 const help = (prefix) => {
 	return `
 
-⌜ *ѕнαηвσт ву ѕнαη∂υу* ⌟  
+⌜ *ShellyBot, por Ricar2drm* ⌟  
 
 ◉ *INFORMACION*
    ○ Comando: ⌜ ${prefix} ⌟
-   ○ Creador: ѕнαη∂υу™ 
-   ○ Como instalar el bot: https://www.youtube.com/watch?v=2LQSzEbpJ-M
-   ○ Instagram: https://www.instagram.com/thepavos
+   ○ Creador: Ricar2drm
+   ○ Bot original: ShanBot
+   ○ Instagram del bot original: https://www.instagram.com/thepavos
 
 
 ◉ *NUEVOS COMANDOS*
@@ -30,11 +30,6 @@ Comandos de bienvedia a grupos
 
 ◉ *PARA USAR EL BOT*
 Registrate con el comando ${prefix}daftar y tu nombre
-
-◉ *RESUELVE TUS DUDAS*
-  ║
-  ╠ ○ ${prefix}creador
-  ╚ Dudas o problemas aqui
 
 ◉ *CREAR STICKERS*
   ║
@@ -89,14 +84,13 @@ Para usar estas funciones el bot necesita admin
 Para activar los NSFW coloque el siguiente comando ${prefix}nsfw 1 y para desactivar los NSFW coloque ${prefix}nsfw 0
 
 
-No te olvides de seguirme en instagram flaco ;)
+Puedes hacerme un encargo por privado para mandar binarios a alguien de forma anónima, no te preocupes, seré discreto y no diré nada, siempre y cuando tú no culpes a otra persona :)
 
 
-ву ѕнαη∂υу
+
+ShellyBot
 
 
-⌜ *ごきげんよう :)* ⌟ 
-`
 }
 
 exports.help = help
