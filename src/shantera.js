@@ -1,7 +1,7 @@
 const shantera = (prefix, pushname) => {
-    return `*Palabras especificas para que el bot interactue con ustedes*
+    return `*Palabras especificas para que el bot interactue contigo*
 
-
+13
 todo bien
 buenos dias
 bot gay
@@ -37,9 +37,9 @@ boliviano
 enano
 
 
-_*Ojito escribe tal y como esta en el mensaje*_
+_*escribe tal y como esta en el mensaje*_
 
-ву ѕнαη∂υу`
+-ShellyBot
 
 }
 
