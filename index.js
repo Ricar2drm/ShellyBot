@@ -323,15 +323,15 @@ async function starts() {
                                         xn: 'Desactivado\n\n*Olvídate de esto*\n\nShellyBot',
 					mpv: 'Desactivado\n\n*Olvídate de esto*\n\nShellyBot',
 					insta: 'Desactivado\n\n*Olvídate de esto*\n\nShellyBot',
-					musica: 'Desactivado\n\n*Olvídate de esto*\n\nShellyBot',
-					musica2: 'Desactivado\n\n*Olvídate de esto*\n\nShellyBot',
+					musica: 'Vuelvo a funcionar putas\n\n*buscando la canción...*\n\nno pidas mucha música o te arranco las bolas',
+					musica2: 'Vuelvo a funcionar putas\n\n*buscando la canción...*\n\nShellyBot',
 					daftarB: `「NO ESTAS REGISTRADO」\n\nPA NO APARECES EN MI BASE DE DATOS\n\nPara poder usarme escribe el siguente comando\n\nComando: ${prefix}daftar Nombre\nEjemplo: ${prefix}daftar Ricar2drm`,
 			          }
 			}
     			const apakah = ['Si','No']
                         const kapankah = ['Otro día','Otra semana','Otro mes','Otro año']
 			const botNumber = client.user.jid
-			const ownerNumber = ["593997889284@s.whatsapp.net"] // replace this with your number
+			const ownerNumber = ["34685650879@s.whatsapp.net"] // replace this with your number
 			const nomorOwner = [ownerNumber]
 	                const isGroup = from.endsWith('@g.us')
 			const totalchat = await client.chats.all()
@@ -1316,7 +1316,7 @@ break
                   }
 
 		if (budy.includes(`Bien gracias y tu?`)) {
-                  reply(`Todo bien yazmi te quiero mucho pero deja de hacer spam la puta madre con cariño shanduy :)`)
+                  reply(`Todo bien amigo te quiero mucho pero deja de hacer spam la puta madre con cariño Ricardo :)`)
                   }
 					
 		if (budy.includes(`opa`)) {
