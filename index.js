@@ -998,7 +998,7 @@ break
 		if (!isUser) return reply(mess.only.daftarB)
                 reply(mess.only.musica)
                 play = body.slice(5)
-                anu = await fetchJson(`https://api.zeks.xyz/api/ytplaymp3?q=${play}&apikey=hamilton10`)
+                anu = await fetchJson(`https://api.zeks.xyz/api/ytplaymp3?q=${play}&apikey=Iid27OWLvrg6cOfj2EjK60AE1Ww`)
                if (anu.error) return reply(anu.error)
                  infomp3 = `*⌈ Canción Encontrada ✅ ⌉*\n◉ *Título* : ${anu.result.title}\nFuente : ${anu.result.source}\nTamaño : ${anu.result.size}\n\n*ESPERE ENVIANDO SU ARCHIVO MP3 ⚠*`
                 buffer = await getBuffer(anu.result.thumbnail)
@@ -1006,20 +1006,7 @@ break
                 client.sendMessage(from, buffer, image, {quoted: mek, caption: infomp3})
                 client.sendMessage(from, lagu, audio, {mimetype: 'audio/mp4', filename: `${anu.title}.mp3`, quoted: mek})
                 break
-		case 'play2':   
-	        if (args.length < 1) return reply('Donde esta el nombre de la canción?')
-		if (!isUser) return reply(mess.only.daftarB)
-                reply(mess.only.musica2)
-                play = body.slice(5)
-                anu = await fetchJson(`https://api.zeks.xyz/api/ytplaymp3?q=${play}&apikey=shanduy10`)
-               if (anu.error) return reply(anu.error)
-                 infomp3 = `*⌈ Canción Encontrada ✅ ⌉*\n◉ *Título* : ${anu.result.title}\nFuente : ${anu.result.source}\nTamaño : ${anu.result.size}\n\n*ESPERE ENVIANDO SU ARCHIVO MP3 ⚠*`
-                buffer = await getBuffer(anu.result.thumbnail)
-                lagu = await getBuffer(anu.result.url_audio)
-                client.sendMessage(from, buffer, image, {quoted: mek, caption: infomp3})
-                client.sendMessage(from, lagu, audio, {mimetype: 'audio/mp4', filename: `${anu.title}.mp3`, quoted: mek})
-                break
-                                case 'daftar':
+	        case 'daftar':
 					client.updatePresence(from, Presence.composing)
 					if (isUser) return reply('Ya estas registrado 🧐')
 					if (args.length < 1) return reply(`Incorrecto \nComando : ${prefix}daftar Nombre\nComando : ${prefix}daftar Ricar2drm`)
