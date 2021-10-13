@@ -1,8 +1,4 @@
- /*
-* ShanBot es una creación de shanduy
-* ShanBot no tiene ningun fin de lucro
-* shanduy se reserva todos los derechos de autor
-* © 2021 shanduy, INC.
+
 
 Cualquier copia que utilize mi ApiKey sera dado de baja
 
@@ -299,7 +295,7 @@ async function starts() {
 			const isCmd = body.startsWith(prefix)
 
 			mess = {
-				wait: 'Espéra mientras hago el sticker\n\n❗No spammees❗\n\nShellyBot',
+				wait: 'Espéra mientras hago el sticker\n\n❗No spammees❗\n\nRicar2drm',
 				success: '✔️ Listo ✔️',
                                 levelon: '❬ ✅ ❭ *Level activado*',
 				leveloff: ' ❬ ✅ ❭  *Level desactivado*',
@@ -315,16 +311,16 @@ async function starts() {
 					ownerB: '[❗] Este comando solo lo usa ShellyBot',
 					admin: '[❗] Este comando solo puede ser utilizado por administradores del grupo',
 					Badmin: '[❗] Este comando solo se puede usar cuando el bot se convierte en administrador',
-                                        pegatina: 'Estoy haciendo el sticker\n\n*Recuerda los stickersgif son de 6 segundos❗*\n\nShellyBot',
-					attp: 'Estoy haciendo el sticker\n\n*Esto puede tardar unos minutos*\n\nShellyBot',
-					imgs: 'Recibido\n\n*Convirtiendo tu Sticker a Imagen 🔄*\n\nShellyBot',
-					mpcancion: 'Desactivado\n\n*Olvídate de esto*\n\nShellyBot',
-					mpa: 'Desactivado\n\n*Olvídate de esto*\n\nShellyBot',
-                                        xn: 'Desactivado\n\n*Olvídate de esto*\n\nShellyBot',
-					mpv: 'Desactivado\n\n*Olvídate de esto*\n\nShellyBot',
-					insta: 'Desactivado\n\n*Olvídate de esto*\n\nShellyBot',
-					musica: 'Vuelvo a funcionar putas\n\n*buscando la canción...*\n\nno pidas mucha música o te arranco las bolas',
-					musica2: 'Vuelvo a funcionar putas\n\n*buscando la canción...*\n\nShellyBot',
+                                        pegatina: 'Estoy haciendo el sticker\n\n*Recuerda los stickersgif son de 6 segundos❗*\n\nRicar2drm',
+					attp: 'Estoy haciendo el sticker\n\n*Esto puede tardar unos minutos*\n\nRicar2drm',
+					imgs: 'Recibido\n\n*Convirtiendo tu Sticker a Imagen 🔄*\n\nRicar2drm',
+					mpcancion: 'Desactivado\n\n*Olvídate de esto*\n\nRicar2drm',
+					mpa: 'Desactivado\n\n*Olvídate de esto*\n\nRicar2drm',
+                                        xn: 'Desactivado\n\n*Olvídate de esto*\n\nRicar2drm',
+					mpv: 'Desactivado\n\n*Olvídate de esto*\n\nRicar2drm',
+					insta: 'Desactivado\n\n*Olvídate de esto*\n\nRicar2drm',
+					musica: 'Arreglé el comando y ahora funciona de nuevo\n\n*buscando la canción...*\n\nno pidas mucha música porque peto',
+					musica2: 'Vuelvo a funcionar putas\n\n*buscando la canción...*\n\nRicar2drm',
 					daftarB: `「NO ESTAS REGISTRADO」\n\nPA NO APARECES EN MI BASE DE DATOS\n\nPara poder usarme escribe el siguente comando\n\nComando: ${prefix}daftar Nombre\nEjemplo: ${prefix}daftar Ricar2drm`,
 			          }
 			}
@@ -538,7 +534,7 @@ async function starts() {
 					}
 					break
 
-/******JUEGOS SHANDUY LA PUTA MADRE NO TE OLVIDES******/
+/******JUEGOS FACHEROS LA PUTA MADRE NO TE OLVIDES******/
 					
 case 'gay':
 if (!isUser) return reply(mess.only.daftarB)
@@ -706,7 +702,7 @@ break
 						teks += `╠➥ @${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-					mentions('╔══✪〘 MENCIONANDO 〙✪══\n╠➥'+teks+'╚═〘 -ShellyBot 〙', members_id, true)
+					mentions('╔══✪〘 MENCIONANDO 〙✪══\n╠➥'+teks+'╚═〘 -Ricar2drm 〙', members_id, true)
 					break
                                 case 'send':
 					var pc = body.slice(6)
@@ -737,7 +733,7 @@ break
 						reply('')
 					} else {
 						for (let _ of anu) {
-							sendMess(_.jid, `*「 -ShellyBot 」*\n\n${body.slice(4)}`)
+							sendMess(_.jid, `*「 -Ricar2drm 」*\n\n${body.slice(4)}`)
 						}
 						reply('Transmisión exitosa')
 					}
@@ -789,7 +785,7 @@ break
 					if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('Marca al que vamos a funar')
 					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 					if (mentioned.length > 1) {
-						teks = 'Pedido recibido, hasta la próxima, te avisé. :\n'
+						teks = 'Pedido recibido, hasta la próxima, no vuelvas. :\n'
 						for (let _ of mentioned) {
 							teks += `@${_.split('@')[0]}\n`
 				        const none = fs.readFileSync('./mp3/baneado.mp3');
@@ -798,9 +794,9 @@ break
 						mentions(teks, mentioned, true)
 						client.groupRemove(from, mentioned)
 					} else {
-						mentions(`Hasta la próxima. Te avisé. : @${mentioned[0].split('@')[0]}`, mentioned, true)
+						mentions(`Hasta la próxima, no vuelvas. : @${mentioned[0].split('@')[0]}`, mentioned, true)
 						client.groupRemove(from, mentioned)
-					client.sendMessage(mentioned, 'Chao puta gorda', text)
+					client.sendMessage(mentioned, 'Chao', text)
 					const none = fs.readFileSync('./mp3/baneado.mp3');
 		                        client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 					}
@@ -973,7 +969,7 @@ break
 						fs.unlinkSync(media)
 						if (err) return reply('❌ No se pudo convertir el sticker en imágenes')
 						buffer = fs.readFileSync(ran)
-						client.sendMessage(from, buffer, image, {quoted: mek, caption: '*⌈ Imagen convertida ✅ ⌉*\n\n-ShellyBot'})
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: '*⌈ Imagen convertida ✅ ⌉*\n\n-Ricar2drm'})
 						fs.unlinkSync(ran)
 					})
 					break
