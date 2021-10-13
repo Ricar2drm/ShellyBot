@@ -13,11 +13,6 @@ const help = (prefix) => {
 ◉ *NUEVOS COMANDOS*
 ○ ${prefix}antimenu
 Su nombre lo dice todo (antilink)
-○ ${prefix}otak
-Monas chinas
-○ ${prefix}shantera
-Interactua con el bot
-
 ◉ *NUEVOS MENUS*
 ○ ${prefix}juegos
 :)
