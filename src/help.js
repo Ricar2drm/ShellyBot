@@ -1,13 +1,13 @@
 const help = (prefix) => {
 	return `
 
-⌜ *ShellyBot, por Ricar2drm* ⌟  
+⌜ *Ricar2drm, por Ricar2drm* ⌟  
 
 ◉ *INFORMACION*
    ○ Comando: ⌜ ${prefix} ⌟
    ○ Creador: Ricar2drm
-   ○ Bot original: ShanBot
-   ○ Instagram del bot original: https://www.instagram.com/thepavos
+   
+   
 
 
 ◉ *NUEVOS COMANDOS*
@@ -20,11 +20,11 @@ Interactua con el bot
 
 ◉ *NUEVOS MENUS*
 ○ ${prefix}juegos
-Divierte con tus amigos :)
+:)
 ○ ${prefix}desmenu
 Descargar musica y videos de YT
 ○ ${prefix}version
-Conoce la versión de tu bot
+En desuso
 ○ ${prefix}welmenu
 Comandos de bienvedia a grupos
 
@@ -75,20 +75,14 @@ Registrate con el comando ${prefix}daftar y tu nombre
   ╠ ○ ${prefix}todos
   ╚ Nombra a todos los del grupo
 
-Para usar estas funciones el bot necesita admin
-  
-◉ *NSWF* 
-  ║
-  ╚ ○ ${prefix}nsfwmenu
-
-Para activar los NSFW coloque el siguiente comando ${prefix}nsfw 1 y para desactivar los NSFW coloque ${prefix}nsfw 0
-
-
-Puedes hacerme un encargo por privado para mandar binarios a alguien de forma anónima, no te preocupes, seré discreto y no diré nada, siempre y cuando tú no culpes a otra persona :)
 
 
 
-ShellyBot
+Ñ
+
+
+
+Ricar2drm
 `
 
 }
